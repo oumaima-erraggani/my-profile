@@ -1,0 +1,85 @@
+/*Colors and fonts*/
+
+body{
+	background:#E3BC9A;
+	color:#5F3013;
+	font-family: "Helvetica";
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: courier;
+}
+h1{
+	color: black;
+}
+h2{
+	color: #301934
+	font-size: 25px
+	font-weight:lighter;
+}
+a{
+	text-decoration: none
+	color: brown;
+}
+a:hover {
+	color: brown;
+}
+
+/*custom design wit class (99% of your design)*/
+.container {
+	width:700px; 
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+.card-white{
+background-color: #FFFCD3;
+padding: 40px;  
+box-shadow: 0px 10px 30px rgba(0,0,0,0,1)
+border-radius: 5px;
+margin: 20px 0px;
+text-align: center; 
+}
+.img-circle{
+	border-radius: 50%
+}
+.btn-brown{
+	background-color:#FFF9C4
+	color: #E3BC9A; 
+	padding: 15px 20px;
+	border-radius: 5px
+}
+.btn-brown: hover {
+	background-color: black
+	color:white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px
+}
+.list-inline i {
+	font-size: 50px;
+	color:#E5D2C4;
+}
+
+/*design adjusments using id (1% design remaining) */
+
+#introduction p{
+	margin-bottom: 40px
+}
+
+
+
